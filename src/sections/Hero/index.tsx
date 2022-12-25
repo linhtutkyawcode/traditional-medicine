@@ -1,16 +1,16 @@
 import {
-  // Card,
-  // CardHeader,
-  // CardBody,
-  // CardFooter,
-  // Typography,
+  Card,
+  CardHeader,
+  CardBody,
+  CardFooter,
+  Typography,
   Button,
 } from '@material-tailwind/react';
 
 export default function Hero() {
   return (
     <section className="mx-2">
-      {/* <Card className="w-full mt-8">
+      <Card className="w-full mt-8">
         <CardHeader color="teal" className="relative h-56">
           <img
             src="/bg.jpg"
@@ -45,9 +45,9 @@ export default function Hero() {
             src="/doctors.jpg"
             alt="doctors and nurses"
             className="w-full min-h-[20rem] object-cover m-4"
-          /> */}
-      {/* <!-- hero --> */}
-      {/* <section className="pt-24 bg-white">
+          />
+          {/* <!-- hero --> */}
+          <section className="pt-24 bg-white">
             <div className="md:px-8 lg:px-12 sm:px-6 mx-auto max-w-7xl">
               <div className="w-full mx-auto text-left md:w-11/12 xl:w-9/12 md:text-center">
                 <h1 className="mb-8 text-4xl font-extrabold leading-none tracking-normal text-gray-900 md:text-6xl md:tracking-tight">
@@ -140,8 +140,7 @@ export default function Hero() {
             Pyay, Bago, Myanmar
           </Typography>
         </CardFooter>
-      </Card> */}
-      <Button>OK</Button>
+      </Card>
     </section>
   );
 }
