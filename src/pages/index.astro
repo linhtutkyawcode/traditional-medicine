@@ -1,16 +1,16 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Footer from '../sections/Footer/index.astro';
-import TComponent from '../sections/TComponent';
-// import Header from '../sections/Header';
-// import Hero from '../sections/Hero';
+// import TComponent from '../sections/TComponent';
+import Header from '../sections/Header';
+import Hero from '../sections/Hero';
 ---
 
 <Layout title="Traditional Medicines">
   <main class="bg-gradient-to-b from-blue-gray-50 to-blue-gray-100">
-    <!-- <Header client:only="react" /> -->
-    <!-- <Hero client:only="react" /> -->
-    <TComponent client:only="react" />
+    <Header client:only="react" />
+    <Hero client:only="react" />
+    <!-- <TComponent client:only="react" /> -->
     <Footer />
   </main>
 </Layout>
