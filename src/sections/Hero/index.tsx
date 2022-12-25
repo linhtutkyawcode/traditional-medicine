@@ -1,9 +1,9 @@
 import {
-  Card,
-  CardHeader,
-  CardBody,
-  CardFooter,
-  Typography,
+  // Card,
+  // CardHeader,
+  // CardBody,
+  // CardFooter,
+  // Typography,
   Button,
 } from '@material-tailwind/react';
 
@@ -141,7 +141,7 @@ export default function Hero() {
           </Typography>
         </CardFooter>
       </Card> */}
-      OK
+      <Button>OK</Button>
     </section>
   );
 }
