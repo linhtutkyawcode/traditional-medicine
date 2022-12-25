@@ -12,11 +12,11 @@ export default function Hero() {
     <section className="mx-2">
       <Card className="w-full mt-8">
         <CardHeader color="teal" className="relative h-56">
-          <img
+          {/* <img
             src="/bg.jpg"
             alt="img-blur-shadow"
             className="h-full w-full object-cover bg-blend-soft-light opacity-60"
-          />
+          /> */}
         </CardHeader>
         <CardBody className="container max-w-screen-xl mx-auto">
           <Typography variant="h5" className="mb-2">
@@ -47,7 +47,7 @@ export default function Hero() {
             className="w-full min-h-[20rem] object-cover m-4"
           />
           {/* <!-- hero --> */}
-          <section className="pt-24 bg-white">
+          {/* <section className="pt-24 bg-white">
             <div className="md:px-8 lg:px-12 sm:px-6 mx-auto max-w-7xl">
               <div className="w-full mx-auto text-left md:w-11/12 xl:w-9/12 md:text-center">
                 <h1 className="mb-8 text-4xl font-extrabold leading-none tracking-normal text-gray-900 md:text-6xl md:tracking-tight">
@@ -131,7 +131,7 @@ export default function Hero() {
                 </div>
               </div>
             </div>
-          </section>
+          </section> */}
         </CardBody>
         <CardFooter divider className="flex items-center justify-between py-3">
           <Typography variant="small">Stay Healthy</Typography>
