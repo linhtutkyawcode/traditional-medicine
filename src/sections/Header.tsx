@@ -347,8 +347,13 @@ export default function Header() {
   return (
     <header>
       <Auth0Provider
-        domain={import.meta.env.PUBLIC_AUTH0_DOMAIN}
-        clientId={import.meta.env.PUBLIC_AUTH0_CLIENT_ID}
+        domain={
+          import.meta.env.PUBLIC_AUTH0_DOMAIN || process.env.PUBLIC_AUTH0_DOMAIN
+        }
+        clientId={
+          import.meta.env.PUBLIC_AUTH0_CLIENT_ID ||
+          process.env.PUBLIC_AUTH0_CLIENT_ID
+        }
         redirectUri={window.location.origin}
       >
         <div className="pt-[5.4rem]"></div>
